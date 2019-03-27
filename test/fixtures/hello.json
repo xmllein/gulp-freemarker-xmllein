@@ -1,0 +1,6 @@
+{
+	"file": "hello.ftl",
+	"data": {
+		"name": "World"
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "name": "gulp-freemarker-xmllein",
+  "version": "0.1.0",
+  "description": "A plugin for Gulp to process Freemarker template files like Java.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"dependencies": {
+		"freemarker.js": "^1.3.0",
+		"gulp-util": "^3.0.4",
+		"istanbul": "^0.4.2",
+		"through2": "^2.0.0"
+	},
+	"devDependencies": {
+		"coveralls": "*",
+		"event-stream": "*",
+		"expect.js": "^0.3.1",
+		"istanbul": "*",
+		"mocha": "*",
+		"mocha-lcov-reporter": "*"
+	},
+	"engines": {
+		"node": ">=0.8.0",
+		"npm": ">=1.2.10"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmllein/gulp-freemarker-xmllein.git"
+  },
+  "keywords": ["gulpplugin",
+	  "freemarker",
+	  "freemarker.js",
+	  "fmpp"],
+  "author": "",
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/xmllein/gulp-freemarker-xmllein/issues"
+  },
+  "homepage": "https://github.com/xmllein/gulp-freemarker-xmllein#readme"
+}
