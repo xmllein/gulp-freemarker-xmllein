@@ -57,6 +57,7 @@ module.exports = function(options) {
                 return callback(null)
               }.bind(_this))
             }else{
+              console.log("modify include file");
               return callback(null)
             }
             //console.log("change === fileObj",fileObj);
@@ -65,7 +66,7 @@ module.exports = function(options) {
         }else {
           // 文件不存在
           if(fileObj[config.file || config.tpl]) delete fileObj[config.file || config.tpl]
-          console.log('del file====',config.file);
+          console.log('del file or json file please ====',config.file);
           //console.log("del file====", fileObj);
           return callback(null)
         }
